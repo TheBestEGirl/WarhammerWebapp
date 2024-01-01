@@ -1,18 +1,33 @@
-* {
+html {
     width: 800px;
     margin: auto;
 }
 
 .index-list {
+    padding: 5px 334px 5px 350px;
     width: 100px;
-    margin: auto;
+    margin: 10px auto auto auto;
 }
 
-h1, p {
+h1 {
     text-align: center;
-    margin: 10px;
+    background-color: rgb(234, 234, 234);
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    padding: 10px 10px 10px 10px;
+}
+
+h3 {
+    background-color: rgb(186, 186, 186);
+    padding: 10px;
 }
 
 ul, ol {
-    margin: 10px;
+    background-color: rgb(186, 186, 186);
+    margin: -20px 0px 0px 0px;
+    padding-bottom: 10px;
 }
